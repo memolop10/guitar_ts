@@ -1,6 +1,14 @@
 
 
-export const Guitar = ({guitar, addToCart}) => {
+type Guitar = {
+    id: number
+    name: string
+    image: string
+    description: string
+    price: number
+}
+
+export const Guitar = ({guitar, addToCart}:{guitar:Guitar, addToCart:(item:Guitar) => void}) => {
 
     const { id, name, image, description, price } = guitar;
 

@@ -1,5 +1,5 @@
-import Header from './components/Header.jsx'
-import { Guitar } from './components/Guitar.jsx'
+import Header from './components/Header.js'
+import { Guitar } from './components/Guitar.js'
 import { useCart } from './hooks/useCart.js'
 
 
